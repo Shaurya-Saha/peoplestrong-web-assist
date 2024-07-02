@@ -74,9 +74,9 @@ def showpage(evt: gr.SelectData):
 
 
 with gr.Blocks(css=CSS) as api_demo_ui:
-    gr.Markdown("Medical Assistant | CWD: {}".format(os.getcwd()))
+    gr.Markdown("PeopleStrong Website Assistant | CWD: {}".format(os.getcwd()))
     with gr.Tabs() as hztab:
-        with gr.TabItem("Medical Assistant"):
+        with gr.TabItem("PeopleStrong Website Assistant"):
             with gr.Row():
                 with gr.Column():
                     with gr.Row():
